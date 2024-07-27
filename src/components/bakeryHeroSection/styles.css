@@ -1,0 +1,92 @@
+.baked-hero-section {
+	background-color: var(--yellowish-dark-color);
+	text-align: center;
+	padding: 250px 0;
+	position: relative;
+	overflow: hidden;
+
+	.images-container {
+		width: 100%;
+		height: 100%;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		img {
+			position: absolute;
+			top: 0;
+			&:nth-child(1) {
+				left: 0;
+			}
+			&:nth-child(2) {
+				left: 35%;
+			}
+			&:nth-child(3) {
+				right: 0%;
+			}
+			&:nth-child(4) {
+				top: 40%;
+				right: 0;
+			}
+			&:nth-child(5) {
+				left: 0%;
+				top: 60%;
+			}
+		}
+	}
+
+	.food-content {
+		position: relative;
+		margin: auto;
+		width: 50%;
+
+		.title {
+			font-weight: 600;
+			color: var(--symbols-color);
+		}
+
+		.title,
+		.heading {
+			font-family: "Cormorant Garamond", serif;
+		}
+
+		.heading {
+			line-height: 96px;
+			font-size: 96px;
+			font-weight: 500;
+			margin: 15px 0;
+			span {
+				font-weight: 800;
+			}
+		}
+
+		.content,
+		.title,
+		a {
+			font-size: 20px;
+		}
+		.content {
+			font-weight: 400;
+			font-family: "Jost", sans-serif;
+			margin: 30px 0;
+		}
+		a {
+			font-family: "Jost", sans-serif;
+			display: inline-flex;
+			align-items: center;
+			font-weight: 500;
+			gap: 10px;
+			padding: 16px 32px;
+			text-decoration: none;
+			border: 2px solid var(--symbols-color);
+			background: rgba(207, 140, 11, 0.1);
+			font-size: 20px;
+			color: #000;
+			svg {
+				path {
+					stroke: var(--symbols-color);
+				}
+			}
+		}
+	}
+}

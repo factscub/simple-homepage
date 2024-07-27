@@ -1,0 +1,105 @@
+.food-item {
+	flex: 1;
+	min-width: 450px;
+	max-width: 450px;
+
+	.food-item-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background: var(--yellowish-light-color);
+
+		img {
+			padding: 20px;
+			width: 80%;
+			aspect-ratio: 1/1;
+		}
+	}
+
+	.food-item-text-container {
+		padding: 20px 0;
+
+		.food-item-title {
+			font-family: "Cormorant Garamond", serif;
+			font-weight: 600;
+			font-size: 24px;
+			margin-bottom: 8px;
+		}
+
+		.food-item-description {
+			font-size: 16px;
+			font-weight: 400;
+			font-family: "Jost", sans-serif;
+		}
+	}
+
+	.food-item-options {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 12px;
+		font-size: 18px;
+		font-weight: 500;
+		font-family: "Jost", sans-serif;
+
+		.food-item-control-options {
+			display: flex;
+			gap: 20px;
+
+			.food-item-pack-container,
+			.quantity-controls {
+				background-color: var(--yellowish-light-color);
+				border-radius: 25px;
+				padding: 8px 24px;
+				font-size: 18px;
+			}
+
+			.food-item-pack-container {
+				.food-item-pack {
+					font-size: 18px;
+					font-weight: 500;
+					font-family: "Jost", sans-serif;
+					border: none;
+					background-color: transparent;
+					outline: none;
+				}
+			}
+
+			.quantity-controls {
+				button {
+					color: var(--symbols-color);
+					background-color: transparent;
+					font-size: 24px;
+				}
+
+				.quantity-decrease,
+				.quantity-increase {
+					border: none;
+					border-radius: 4px;
+					width: 24px;
+					height: 24px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+	.add-to-cart {
+		font-family: "Jost", sans-serif;
+		font-weight: 500;
+		background-color: var(--yellowish-light-color);
+		border: none;
+		padding: 16px;
+		cursor: pointer;
+		width: 100%;
+		font-size: 18px;
+		padding: 15px;
+		&::before {
+			content: " + ";
+			color: var(--symbols-color);
+			padding-right: 5px;
+			font-size: 25px;
+		}
+	}
+}

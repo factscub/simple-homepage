@@ -1,0 +1,92 @@
+[
+    {
+        "image": "src/assets/productItemImages/image1.png",
+        "title": "Pain au Cranberry",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    },
+    {
+        "image": "src/assets/productItemImages/image2.png",
+        "title": "Roasted Pear Danish",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    },
+    {
+        "image": "src/assets/productItemImages/image3.png",
+        "title": "Onion Anchovy",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    },
+    {
+        "image": "src/assets/productItemImages/image1.png",
+        "title": "Pain au Cranberry",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    },
+    {
+        "image": "src/assets/productItemImages/image2.png",
+        "title": "Roasted Pear Danish",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    },
+    {
+        "image": "src/assets/productItemImages/image3.png",
+        "title": "Onion Anchovy",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    },
+    {
+        "image": "src/assets/productItemImages/image1.png",
+        "title": "Pain au Cranberry",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    },
+    {
+        "image": "src/assets/productItemImages/image2.png",
+        "title": "Roasted Pear Danish",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    },
+    {
+        "image": "src/assets/productItemImages/image3.png",
+        "title": "Onion Anchovy",
+        "description": "A delightful spiral pastry filled with light French vanilla cream and studded with seasonal berries.",
+        "price": "$128",
+        "packOptions": [
+            6,
+            12
+        ]
+    }
+]
